@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+
+    "name":"Getting Started",
+    "description":"This extension show",
+    "version":"1.0",
+
+    "action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "64":"icon.png"
+    },
+    "content_scripts":{
+        "matches":["http://*/*"],
+        "js":["myscripts.js"]
+    }
+}
