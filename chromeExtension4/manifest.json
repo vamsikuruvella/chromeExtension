@@ -1,5 +1,5 @@
 {
-    "manifest_version":2,
+    "manifest_version":3,
 
     "name":"Getting Started",
     "description":"This extension show",
@@ -11,6 +11,9 @@
     },
     "icons":{
         "64":"icon.png"
+    },
+    "background":{
+        "scrpits":["background.js"]
     },
     "content_scripts": [
         {
