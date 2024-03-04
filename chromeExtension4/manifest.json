@@ -12,8 +12,14 @@
     "icons":{
         "64":"icon.png"
     },
-    "content_scripts":{
-        "matches":["http://*/*"],
-        "js":["myscripts.js"]
-    }
+    "content_scripts": [
+        {
+          "js": [
+            "myscripts.js"
+          ],
+          "matches": [
+            "http://*/*"
+          ]
+        }
+      ]
 }
