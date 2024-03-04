@@ -13,7 +13,7 @@
         "64":"icon.png"
     },
     "background":{
-        "scrpits":["background.js"]
+        "service_worker":"background.js"
     },
     "content_scripts": [
         {
