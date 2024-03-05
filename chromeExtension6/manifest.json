@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Reddit Viewer",
-    "description": "View Reddit inside this extension",
+    "name": "OpenStreet Maps",
+    "description": "View maps inside this extension",
     "version": "1.0",
     "permissions": ["tabs"],
     "browser_action": {
