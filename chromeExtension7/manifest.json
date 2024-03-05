@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "chromeExtension7",
+    "description": "Override New Tab",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+      },
+      "background":{
+        "scripts":["background.js"]
+      },
+      "chrome_url_overrides":{
+        "newtab":"newtab.html"
+      },    
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "content_scripts":[
+        {
+            "matches":["http://*/*","https://*/*"],
+            "js":["myscripts.js"]
+        }
+    ]
+  }
+  
